@@ -1,7 +1,7 @@
 import React from "react";
 import weather from "../assets/images/weather.jpg"
 import gallery from "../assets/images/gallery.jpg";
-import pizza from "../assets/images/pizza.jpg";
+import pizza from "../assets/images/Pizza.jpg";
 import calculator from "../assets/images/Calculator.jpg";
 import shopping from "../assets/images/shopping.png";
 
