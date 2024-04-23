@@ -2,7 +2,7 @@ import React from "react";
 import tailwind from "../assets/images/tailwind.png";
 import csslogo from "../assets/images/css3.png"
 import reactlogo from "../assets/images/React.png"
-import jslogo from "../assets/images/Javascript.png"
+import jslogo from "../assets/images/javascript.png"
 import htmllogo from "../assets/images/html5.png"
 
 const Skills = () => {
