@@ -1,6 +1,6 @@
 import React from "react";
 import hero from "../assets/images/hero3.png";
-const Hero = () => {
+const Home= () => {
   const social_media = [
     {
       img: "logo-github",
@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-5xl">
               Hello!
-              <br />
+              <br /> 
             </span>
             I'm <span>Gungun</span>
           </h1>
@@ -32,16 +32,15 @@ const Hero = () => {
             Enthusiastic and skilled frontend developer with a solid foundation in HTML, CSS, Java Script, and React js, dedicated to crafting intuitive interfaces and seamless user interactions. Eager to apply my skills and knowledge to real-world projects and continue learning and growing in the field.
           </p>
 
-          <a href="./src/assets/Gungun_Resume.pdf" download>
+          <a href="./src/assets/Gungun_latest_2024.pdf" download>
             <button className="btn-primary mt-8">Download CV</button>
           </a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
-            {social_media?.map((socialMediaItem, index) => (
+            {social_media.map((socialMediaItem, index) => (
               <a
                 key={index}
                 href={socialMediaItem.link}
                 target="_blank"
-                rel="noopener noreferrer"
                 className="text-gray-600 hover:text-white cursor-pointer"
               >
                 <ion-icon name={socialMediaItem.img}></ion-icon>
@@ -54,5 +53,5 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
 

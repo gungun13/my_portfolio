@@ -5,7 +5,6 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const menuLinks = [
     { name: "HOME", link: "#home" },
-    // { name: "ABOUT", link: "#about" },
     { name: "SKILLS", link: "#skills" },
     { name: "PROJECTS", link: "#projects" },
     { name: "CONTACT", link: "#contact" },
@@ -36,7 +35,7 @@ const Navbar = () => {
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
               <li key={i} className="px-6 hover:text-cyan-600">
-                <a href={menu?.link}>{menu?.name}</a>
+                <a href={menu.link}>{menu?.name}</a>
               </li>
             ))}
           </ul>
@@ -56,7 +55,7 @@ const Navbar = () => {
       }`}
         >
           <ul className="flex flex-col justify-center h-full gap-10 py-2 text-lg">
-            {menuLinks?.map((menu, i) => (
+            {menuLinks.map((menu, i) => (
               <li
                 onClick={() => setOpen(false)}
                 key={i}

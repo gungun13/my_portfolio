@@ -9,28 +9,28 @@ const Skills = () => {
   const skills = [
     {
       logo: htmllogo,
-      level: "HTML5",
+      name: "HTML5",
       count: 85,
     },
     {
       logo: csslogo,
-      level: "CSS3",
+      name: "CSS3",
       count: 70,
     },
     {
       logo: jslogo,
-      level: "Javascript",
-      count: 75,
+      name: "Javascript",
+      count: 85,
     },
     {
       logo: tailwind,
-      level: "Tailwind CSS",
+      name: "Tailwind CSS",
       count: 75,
     },
     {
       logo: reactlogo,
-      level: "React",
-      count: 70,
+      name: "React",
+      count: 80,
     },
   ];
   return (
@@ -41,7 +41,7 @@ const Skills = () => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
-          {skills?.map((skill, i) => (
+          {skills.map((skill, i) => (
             <div
               key={i}
               className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl"
@@ -56,7 +56,7 @@ const Skills = () => {
                   <img src={skill.logo} alt="" />
                 </div>
               </div>
-              <p className="text-xl mt-3">{skill.level}</p>
+              <p className="text-xl mt-3">{skill.name}</p>
             </div>
           ))}
         </div>

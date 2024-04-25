@@ -35,7 +35,7 @@ const Project = () => {
       img: shopping,
       name: "E-commerce",
       github_link: "https://github.com/gungun13/shopping_app",
-      live_link: "https://shopping-app-mu-khaki.vercel.app/",
+      live_link: "https://shopping-a6f7e87n1-gunguns-projects.vercel.app/",
     },
   ];
   return (
@@ -56,7 +56,6 @@ const Project = () => {
               <a
                 href={project_info.github_link}
                 target="_blank"
-                rel="noopener noreferrer"
                 className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
               >
                 Github
@@ -64,7 +63,6 @@ const Project = () => {
               <a
                 href={project_info.live_link}
                 target="_blank"
-                rel="noopener noreferrer"
                 className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
               >
                 Live Demo
