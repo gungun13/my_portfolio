@@ -32,7 +32,7 @@ const Home= () => {
             Enthusiastic and skilled frontend developer with a solid foundation in HTML, CSS, Java Script, and React js, dedicated to crafting intuitive interfaces and seamless user interactions. Eager to apply my skills and knowledge to real-world projects and continue learning and growing in the field.
           </p>
 
-          <a href="./src/assets/Gungun_latest_2024.pdf" download>
+          <a href="./src/assets/Resume_Gungun_BCOE.pdf" download>
             <button className="btn-primary mt-8">Download CV</button>
           </a>
           <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">

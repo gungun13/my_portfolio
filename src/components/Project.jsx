@@ -7,12 +7,7 @@ import shopping from "../assets/images/shopping.png";
 
 const Project = () => {
   const projects = [
-    {
-      img: weather,
-      name: "Weather App",
-      github_link: "https://github.com/gungun13/TAI-IP-WeatherApp",
-      live_link: "https://weather-app-kappa-puce.vercel.app/",
-    },
+    
     {
       img: gallery,
       name: "Gallery Filter",
@@ -20,10 +15,10 @@ const Project = () => {
       live_link: "https://gallery-filter-six.vercel.app/",
     },
     {
-      img: pizza,
-      name: "Pizza Store",
-      github_link: "https://github.com/gungun13/pizza-project",
-      live_link: "",
+      img: weather,
+      name: "Weather App",
+      github_link: "https://github.com/gungun13/TAI-IP-WeatherApp",
+      live_link: "https://weather-app-kappa-puce.vercel.app/",
     },
     {
       img: calculator,
@@ -35,7 +30,7 @@ const Project = () => {
       img: shopping,
       name: "E-commerce",
       github_link: "https://github.com/gungun13/shopping_app",
-      live_link: "https://shopping-a6f7e87n1-gunguns-projects.vercel.app/",
+      live_link: "",
     },
   ];
   return (
